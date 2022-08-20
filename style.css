@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+    font-size: 22px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+
+}
+
+header {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    z-index: 5;
+    background-color: black;
+}
+
+header nav ul{
+    display:flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+nav li{
+    padding-left: 2.5rem;
+    list-style: none;
+}
+
+a{
+    color: seashell;
+    opacity: 0.9;
+    text-decoration: underline;
+}
+
+#logo img{
+    width: auto;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.main_area {
+    position: relative;
+    top: 69px;
+    width: 100%;
+}
+
+.main_area .first_content{
+    background-image: url(img/img-mission-background.jpg);
+    opacity: 0.6;
+    height: 700px;
+    width: 95%;
+    margin: 0 2.5%;
+}
+
+.main_area .first_content .titulo_principal{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo_principal h2,h4
+{
+    margin-top: 1rem;
+}
+
+.titulo_principal h4{
+    margin-bottom: 1rem;;
+}
+
+.main_area .second_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.6;
+    height: 700px;
+    width: 95%;
+    margin: 0 2.5%;
+}
+
+.second_container .titulo_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_images{
+    display: flex;
+    width: 95%;
+    margin: 0 2.5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem_mostrar img{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.imagem_mostrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagem_mostrar h5{
+    margin: 15px;
+
+}
