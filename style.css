@@ -87,7 +87,8 @@ a{
     flex-direction: column;
     align-items: center;
     opacity: 0.6;
-    height: 700px;
+    height: auto;
+    padding-bottom: 3rem;
     width: 95%;
     margin: 0 2.5%;
 }
@@ -124,4 +125,55 @@ a{
 .imagem_mostrar h5{
     margin: 15px;
 
+}
+
+.main_area .third_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.6;
+    height: auto;
+    padding: 5rem 0;
+    width: 95%;
+    margin: 0 2.5%;
+    background-image: url(img/img-locations-background.jpg) ;
+}
+
+
+.address_location{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.individual_address{
+    background-color: black;
+    width: 300px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.address_location h6{
+    font-size: 1rem;
+    opacity: 0.9;
+    font-weight: lighter;
+}
+
+h6 span{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.third_container_title{
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.third_container_title h2{
+    margin-bottom: 15px;
 }
